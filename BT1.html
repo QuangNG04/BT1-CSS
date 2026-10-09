@@ -3,115 +3,126 @@
     <head>
         <meta charset="UTF-8">
         <meta name="description" content="Thông tin cá nhân">
-        <meta name="viewport" content="Thông tin cá nhân">
-        <meta name="author" content="NGuyễn Minh Quang">
-        <title>Nguyễn Minh Quang</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Nguyễn Minh Quang">
+        <title>Nguyễn Minh Quang - Bài tập 2</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <header>
-            <h1>Bài 1</h1>
-        </header>
-        <main>
-            <h2>Thông Tin Cá Nhân</h2>
-            <p>Họ Tên: Nguyễn Minh Quang</p>
-            <P>Ngày sinh: 04/03/2007</P>
-            <p>Lớp: ICT4-2510209.01</p>
-            <h2>Ảnh Đại Diện</h2>
-            <img src="fa47644de22768c54c83c15859d0d555.jpeg" alt="Nguyễn Minh Quang" width="400">
-            <h2>Danh Sách Sở Thích</h2>
-            <ul>
-                <li>Chơi Game Với Bạn Bè</li>
-                <li>Nghe Nhạc Indie</li>
-                <li>Ăn Uống Đồ Ăn Ngon</li>
-                <li>v.v</li>
-            </ul>
-            <h2>Các Trang Cá Nhân</h2>
-            <p>Facebook <a href="https://www.facebook.com/profile.php?id=61593713005428" target="_blank">Facebook</a></p>
-            <p>GitHub <a href="https://github.com/QuangNG04" target="_blank">GitHub</a></p>
-            <p>Locket <a href="https://locket.cam/q0_0nm" target="_blank">Locket</a></p>
-        </main>
-        <header>
-            <h1>Bài 2</h1>
-        </header>
-        <main>
-            <h2>Bảng Điểm Của Quang HK1</h2>
-            <table border="1">
-            <tr>
-                <th>STT</th>
-                <th>Môn học</th>
-                <th>Điểm</th>
-            </tr>
-            <tr>
-                <th>1</th>
-                <th>Đại Số Tuyến Tính</th>
-                <th>8,5</th>
-            </tr>
-            <tr>
-                <th>2</th>
-                <th>Pháp Luật Đại Cương</th>
-                <th>5,7</th>
-            </tr>
-            <tr>
-                <th>3</th>
-                <th>Quản Trị Học</th>
-                <th>7,3</th>
-            </tr>
-            <tr>
-                <th>4</th>
-                <th>Tiếng Anh Cơ Bản 1</th>
-                <th>7,5</th>
-            </tr>
-            <tr>
-                <th>5</th>
-                <th>Chạy 1</th>
-                <th>10</th>
-            </tr>
-            <tr>
-                <th colspan="2">Điểm Trung Bình</th>
-                <th>7,8</th>
-            </tr>
-            </table>
-        </main>
-        <header>
-            <h1>Bài 3</h1>
-        </header>
-        <main>
-            <h2>Form Đăng Ký Sinh Viên</h2>
-            <form action="https://quangng04.github.io/Bai-tap-1/BT1.1.html">
-                <p>Họ tên: <input type="text" placeholder="Nguyễn Văn A" required></p>
-                <p>Email: <input type="email" placeholder="example@gmail.com" required></p>
-                <p>Mật Khẩu <input type="password"></p>
-                <P>Giới Tính
-                    <input type="radio" name="gt" required> Nam
-                    <input type="radio" name="gt" required> Nữ
-                </P>
-                <p>Sở Thích
-                    <input type="checkbox" name="st" > Đá Bóng
-                    <input type="checkbox" name="st" > Nghe Nhạc
-                    <input type="checkbox" name="st" > Chơi Game
-                    <input type="checkbox" name="st" > Nhắn Tin 
-                    <input type="checkbox" name="st" > Học Tập
-                    <input type="checkbox" name="st" > Đi Chơi
-                    <input type="checkbox" name="st" > Ngủ
-                    <input type="checkbox" name="st" > Khác
-                </p>
-                <p>Ngành Học 
+        <a href="#main-content" class="skip-link">Chuyển đến Nội dung chính</a>
+        <nav>
+            <a href="#main-content">
+                <img src="fa47644de22768c54c83c15859d0d555.jpeg" alt="Logo">
+            </a>
+            <a href="#bai1">Bài 1</a>
+            <a href="#bai2">Bài 2</a>
+            <a href="#bai3">Bài 3</a>
+        </nav>
+        <main id="main-content">
+            <section id="bai1">
+                <header>
+                    <h1>Bài 1</h1>
+                </header>
+                <h2>Thông Tin Cá Nhân</h2>
+                <p>Họ Tên: Nguyễn Minh Quang</p>
+                <p>Ngày sinh: 04/03/2007</p>
+                <p>Lớp: ICT4-2510209.01</p>
+                <h2>Ảnh Đại Diện</h2>
+                <div class="grid">
+                    <img src="fa47644de22768c54c83c15859d0d555.jpeg" alt="Nguyễn Minh Quang">
+                </div>
+                <h2>Danh Sách Sở Thích</h2>
+                <ul>
+                    <li>Chơi Game Với Bạn Bè</li>
+                    <li>Nghe Nhạc Indie</li>
+                    <li>Ăn Uống Đồ Ăn Ngon</li>
+                    <li>v.v</li>
+                </ul>
+                <h2>Các Trang Cá Nhân</h2>
+                <p><a href="https://www.facebook.com/profile.php?id=61593713005428" target="_blank">Facebook</a></p>
+                <p><a href="https://github.com/QuangNG04" target="_blank">GitHub</a></p>
+                <p><a href="https://locket.cam/q0_0nm" target="_blank">Locket</a></p>
+            </section>
+            <section id="bai2">
+                <header>
+                    <h1>Bài 2</h1>
+                </header>
+                <h2>Bảng Điểm Của Quang HK1</h2>
+                <table border="1">
+                    <tr>
+                        <th>STT</th>
+                        <th>Môn học</th>
+                        <th>Điểm</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Đại Số Tuyến Tính</td>
+                        <td>8,5</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Pháp Luật Đại Cương</td>
+                        <td>5,7</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Quản Trị Học</td>
+                        <td>7,3</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Tiếng Anh Cơ Bản 1</td>
+                        <td>7,5</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Chạy 1</td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">Điểm Trung Bình</th>
+                        <th>7,8</th>
+                    </tr>
+                </table>
+            </section>
+            <section id="bai3">
+                <header>
+                    <h1>Bài 3</h1>
+                </header>
+                <h2>Form Người Xem</h2>
+                <form action="https://quangng04.github.io/Bai-tap-1/BT1.1.html">
+                    <p>Họ tên: <input type="text" placeholder="Nguyễn Văn A" required></p>
+                    <p>Email: <input type="email" placeholder="example@gmail.com" required></p>
+                    <p>Mật Khẩu <input type="password"></p>
+                    <p>Giới Tính
+                        <input type="radio" name="gt" required> Nam
+                        <input type="radio" name="gt" required> Nữ
+                    </p>
+                    <div class="flex">
+                        <label><input type="checkbox" name="st"> Đá Bóng</label>
+                        <label><input type="checkbox" name="st"> Nghe Nhạc</label>
+                        <label><input type="checkbox" name="st"> Chơi Game</label>
+                        <label><input type="checkbox" name="st"> Nhắn Tin</label>
+                        <label><input type="checkbox" name="st"> Học Tập</label>
+                        <label><input type="checkbox" name="st"> Đi Chơi</label>
+                        <label><input type="checkbox" name="st"> Ngủ</label>
+                        <label><input type="checkbox" name="st"> Khác</label>
+                    </div>
+                    <p>Ngành Học</p>
                     <select name="Ngành Học" required>
                         <option value="">-- Chọn Ngành --</option>
-                        <option> CNTT </option>
-                        <option> Kỹ Thuật </option>
-                        <option> Ngôn Ngữ - Khoa Học Xã Hội </option>
-                        <option> Kinh Tế </option>
-                        <option> Y-Dược </option>
-                        <option> Công nghệ Số Liên Ngành </option>
+                        <option>CNTT</option>
+                        <option>Kỹ Thuật</option>
+                        <option>Ngôn Ngữ - Khoa Học Xã Hội</option>
+                        <option>Kinh Tế</option>
+                        <option>Y-Dược</option>
+                        <option>Công nghệ Số Liên Ngành</option>
                     </select>
-                </p>
-                <p> Ghi Chú </p>
-                <p>
-                    <textarea name="Ghi Chú" placeholder="Nhập Ghi Chú"> </textarea>
-                </p>
-                <p> <input type= "submit" value= " Gửi " ></p>
-            </form>
+                    <p>Ghi Chú</p>
+                    <p><textarea name="Ghi Chú" placeholder="Nhập Ghi Chú"></textarea></p>
+                    <p><input type="submit" value="Gửi"></p>
+                </form>
+            </section>
         </main>
     </body>
 </html>
